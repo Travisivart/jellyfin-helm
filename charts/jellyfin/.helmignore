@@ -21,3 +21,9 @@
 .idea/
 *.tmproj
 .vscode/
+
+# Local deployment overlay: contains secrets passed via --set.
+# Never package into the release Secret.
+custom/
+ci/
+rendered*.yaml
