@@ -19,6 +19,8 @@ image:
   repository: docker.io/jellyfin/jellyfin
   # -- Jellyfin container image tag. Leave empty to automatically use the Chart's app version.
   tag: ""
+  # -- Image digest (e.g. sha256:abc...). When set, it takes precedence over tag and pins the image immutably.
+  digest: ""
   # -- Image pull policy (Always, IfNotPresent, or Never).
   pullPolicy: IfNotPresent
 
